@@ -16,7 +16,7 @@
    	element('.btn-primary').click();
    	sleep(1);
 
-   	expect(repeater(.'not-done').count()).toBe(1);
+   	expect(repeater('.not-done').count()).toBe(1);
    	expect(repeater('.done').count()).toBe(0);
    });
 
